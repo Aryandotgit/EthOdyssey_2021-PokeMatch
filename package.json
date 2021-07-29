@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Aryandotgit/EthOdyssey_2021/issues"
   },
-  "homepage": "https://github.com/Aryandotgit/EthOdyssey_2021#readme"
+  "homepage": "https://github.com/Aryandotgit/EthOdyssey_2021#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.2"
+  }
 }

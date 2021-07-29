@@ -30,7 +30,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <img  src={brain} width="50" height="30" className="d-inline-block align-top" alt="" />
+          <img  src={ball} width="50" height="30" className="d-inline-block align-top" alt="" />
           &nbsp; PokeMatch
           </a>
           <ul className="navbar-nav px-3">
@@ -94,5 +94,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
