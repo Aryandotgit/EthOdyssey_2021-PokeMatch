@@ -22,5 +22,8 @@
   "homepage": "https://github.com/Aryandotgit/EthOdyssey_2021#readme",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.4.2"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.14.5"
   }
 }
