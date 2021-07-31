@@ -1,7 +1,7 @@
 
 // File: @openzeppelin/contracts/introspection/IERC165.sol
 
-pragma solidity >0.5.0;
+pragma solidity >=0.5.0;
 
 /**
  * @dev Interface of the ERC165 standard, as defined in the
@@ -26,7 +26,7 @@ interface IERC165 {
 
 // File: @openzeppelin/contracts/token/ERC721/IERC721.sol
 
-pragma solidity >0.5.0;
+pragma solidity >=0.5.0;
 
 
 /**
@@ -81,7 +81,7 @@ contract IERC721 is IERC165 {
 
 // File: @openzeppelin/contracts/token/ERC721/IERC721Receiver.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 /**
  * @title ERC721 token receiver interface
@@ -109,7 +109,7 @@ contract IERC721Receiver {
 
 // File: @openzeppelin/contracts/math/SafeMath.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow
@@ -219,7 +219,7 @@ library SafeMath {
 
 // File: @openzeppelin/contracts/utils/Address.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 /**
  * @dev Collection of functions related to the address type,
@@ -249,7 +249,7 @@ library Address {
 
 // File: @openzeppelin/contracts/drafts/Counters.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 
 /**
@@ -288,7 +288,7 @@ library Counters {
 
 // File: @openzeppelin/contracts/introspection/ERC165.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 
 /**
@@ -342,7 +342,13 @@ contract ERC165 is IERC165 {
 
 // File: @openzeppelin/contracts/token/ERC721/ERC721.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
+
+
+
+
+
+
 
 /**
  * @title ERC721 Non-Fungible Token Standard basic implementation
@@ -637,7 +643,7 @@ contract ERC721 is ERC165, IERC721 {
 
 // File: @openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 
 /**
@@ -653,7 +659,7 @@ contract IERC721Enumerable is IERC721 {
 
 // File: @openzeppelin/contracts/token/ERC721/ERC721Enumerable.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 
 
@@ -854,7 +860,7 @@ contract ERC721Enumerable is ERC165, ERC721, IERC721Enumerable {
 
 // File: @openzeppelin/contracts/token/ERC721/IERC721Metadata.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 
 /**
@@ -869,7 +875,7 @@ contract IERC721Metadata is IERC721 {
 
 // File: @openzeppelin/contracts/token/ERC721/ERC721Metadata.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 
 
@@ -960,7 +966,7 @@ contract ERC721Metadata is ERC165, ERC721, IERC721Metadata {
 
 // File: @openzeppelin/contracts/token/ERC721/ERC721Full.sol
 
-pragma solidity >0.5.0;
+pragma solidity ^0.5.0;
 
 
 
