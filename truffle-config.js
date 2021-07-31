@@ -1,7 +1,5 @@
-
 require('babel-register');
 require('babel-polyfill');
-require('@openzeppelin/truffle-upgrades');
 
 module.exports = {
   networks: {

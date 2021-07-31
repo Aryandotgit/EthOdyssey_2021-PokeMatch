@@ -24,21 +24,31 @@
   },
   "homepage": "https://github.com/Aryandotgit/EthOdyssey_2021#readme",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.4.2",
+    "@truffle/hdwallet-provider": "^1.0.37",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^5.0.2",
+    "crypto-browserify": "^3.12.0",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^1.1.5",
+    "readable-stream": "^1.0.33",
     "request": "^2.79.0",
+    "stream-browserify": "^1.0.0",
     "truffle-contract": "^4.0.31",
-    "web3": "^1.5.0"
+    "web3": "^1.5.0",
+    "web3-eth": "^1.5.0",
+    "webpack": "^4.44.2"
   },
   "devDependencies": {
     "@babel/register": "^7.14.5",
     "@openzeppelin/truffle-upgrades": "^1.8.0",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "eslint": "^7.32.0",
+    "rn-nodeify": "^10.3.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -51,5 +61,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
   }
 }

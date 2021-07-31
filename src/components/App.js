@@ -138,7 +138,8 @@ class App extends Component {
 
     if(optionOneId === optionTwoId) {
       alert('You have clicked the same image!')
-    } else if (this.state.cardsChosen[0] === this.state.cardsChosen[1]) {
+    } 
+    else if (this.state.cardsChosen[0] === this.state.cardsChosen[1]) {
       alert('You found a match')
       this.state.token.methods.mint(
         this.state.account,
@@ -188,7 +189,7 @@ class App extends Component {
             rel="noopener noreferrer"
           >
           <img  src={ball} width="50" height="30" className="d-inline-block align-top" alt="" />
-          &nbsp; PokeMatch
+          &nbsp; Poke Tokens
           </a>
           <ul className="navbar-nav px-3">
             <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
@@ -200,12 +201,13 @@ class App extends Component {
           <div className="row">
             <main role="main" className="col-lg-12 d-flex text-center">
               <div className="content mr-auto ml-auto">
-                <h1 className="d-4">Start catching now! Match the Poke-Token!</h1>
+                <h1 className="d-4">Start catching now! Match the Poke Tokens!</h1>
 
                 <div className="grid mb-4" >
 
                   { this.state.cardArray.map((card, key) => {
                     return(
+                      // eslint-disable-next-line jsx-a11y/alt-text
                       <img
                         key={key}
                         src={this.chooseImage(key)}
@@ -225,12 +227,13 @@ class App extends Component {
 
                 <div>
 
-                  <h5>The Tokens Collected:<span id="result">&nbsp;{this.state.tokenURIs.length}</span></h5>
+                  <h5>Your Tokens:<span id="result">&nbsp;{this.state.tokenURIs.length}</span></h5>
 
                   <div className="grid mb-4" >
 
                     { this.state.tokenURIs.map((tokenURI, key) => {
                       return(
+                        // eslint-disable-next-line jsx-a11y/alt-text
                         <img
                           key={key}
                           src={tokenURI}
