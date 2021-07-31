@@ -7,7 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -21,9 +24,32 @@
   },
   "homepage": "https://github.com/Aryandotgit/EthOdyssey_2021#readme",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.4.2"
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "request": "^2.79.0",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.2.1"
   },
   "devDependencies": {
-    "@babel/register": "^7.14.5"
+    "@babel/register": "^7.14.5",
+    "@openzeppelin/truffle-upgrades": "^1.8.0",
+    "babel-register": "^6.26.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

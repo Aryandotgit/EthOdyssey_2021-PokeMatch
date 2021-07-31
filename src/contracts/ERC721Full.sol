@@ -637,7 +637,7 @@ contract ERC721 is ERC165, IERC721 {
 
 // File: @openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol
 
-pragma solidity ^0.5.0;
+pragma solidity >0.5.0;
 
 
 /**
@@ -653,7 +653,7 @@ contract IERC721Enumerable is IERC721 {
 
 // File: @openzeppelin/contracts/token/ERC721/ERC721Enumerable.sol
 
-pragma solidity ^0.5.0;
+pragma solidity >0.5.0;
 
 
 
@@ -854,7 +854,7 @@ contract ERC721Enumerable is ERC165, ERC721, IERC721Enumerable {
 
 // File: @openzeppelin/contracts/token/ERC721/IERC721Metadata.sol
 
-pragma solidity ^0.5.0;
+pragma solidity >0.5.0;
 
 
 /**
@@ -869,7 +869,7 @@ contract IERC721Metadata is IERC721 {
 
 // File: @openzeppelin/contracts/token/ERC721/ERC721Metadata.sol
 
-pragma solidity ^0.5.0;
+pragma solidity >0.5.0;
 
 
 
@@ -960,7 +960,7 @@ contract ERC721Metadata is ERC165, ERC721, IERC721Metadata {
 
 // File: @openzeppelin/contracts/token/ERC721/ERC721Full.sol
 
-pragma solidity ^0.5.0;
+pragma solidity >0.5.0;
 
 
 

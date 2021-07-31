@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/alt-text */
+
 import React, { Component } from 'react';
 import Web3 from 'web3'
 import './App.css';

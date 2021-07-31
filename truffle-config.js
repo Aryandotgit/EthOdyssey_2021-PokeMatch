@@ -1,10 +1,7 @@
-const HDWalletProvider = require('@truffle/hdwallet-provider');
-const fs = require('fs');
-const mnemonic = fs.readFileSync(".secret").toString().trim();
-
 
 require('babel-register');
 require('babel-polyfill');
+require('@openzeppelin/truffle-upgrades');
 
 module.exports = {
   networks: {
@@ -13,17 +10,16 @@ module.exports = {
       port: 7545,
       network_id: "*" // Match any network id
     },
+  },
 
- contracts_directory: './src/contracts/',
+  contracts_directory: './src/contracts/',
   contracts_build_directory: './src/abis/',
   compilers: {
     solc: {
-      version: '>0.5',
       optimizer: {
         enabled: true,
         runs: 200
       }
     }
   }
-}
 }
