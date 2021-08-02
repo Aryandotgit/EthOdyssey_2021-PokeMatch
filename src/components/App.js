@@ -53,7 +53,31 @@ const CARD_ARRAY = [
   {
     name: 'squirtle',
     img: '/images/squirtle.png'
-  }
+  },
+  {
+    name: 'charmander',
+    img: '/images/charmander.png'
+  },
+  {
+    name: 'snorlax',
+    img: '/images/snor.png'
+  },
+  {
+    name: 'pikachu',
+    img: '/images/pika.png'
+  },
+  {
+    name: 'charmander',
+    img: '/images/charmander.png'
+  },
+  {
+    name: 'snorlax',
+    img: '/images/snor.png'
+  },
+  {
+    name: 'pikachu',
+    img: '/images/pika.png'
+  },
 ]
 
 class App extends Component {
@@ -188,7 +212,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-          <img  src={ball} width="50" height="30" className="d-inline-block align-top" alt="" />
+          <img  src={ball} width="50" height="40" className="d-inline-block align-top" alt="" />
           &nbsp; Poke Tokens
           </a>
           <ul className="navbar-nav px-3">
