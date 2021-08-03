@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 ![alt text](:\Users\aryan\Documents\GitHub\EthOdyssey_2021\src\logo.png)
 =======
 ![](https://github.com/Aryandotgit/EthOdyssey_2021-PokeMatch/blob/main/src/logo.png)
->>>>>>> 8abff316bb410f46eb2e0965f8763fcaa01a5aca
+
 
 ***
 
@@ -41,7 +40,7 @@ The solidity script deployment :
 truffle compile
 truffle migrate --network matic --reset
 ```
-Now, we need to deploy the frontend 
+Now, we need to deploy the frontend: 
 
 ```shell
 npm run start
