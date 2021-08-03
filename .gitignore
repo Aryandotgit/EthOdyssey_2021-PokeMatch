@@ -2,4 +2,8 @@ build
 
 .env
 
+.vscode
+
+.secret
+
 node_modules

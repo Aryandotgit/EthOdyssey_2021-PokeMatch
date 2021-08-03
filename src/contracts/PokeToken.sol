@@ -1,3 +1,4 @@
+//SPDX-License-Identifier: <SPDX-License>
 pragma solidity >=0.5.0;
 
 import "./ERC721Full.sol";
