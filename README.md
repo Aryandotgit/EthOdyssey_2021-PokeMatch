@@ -1,5 +1,3 @@
-![alt text](:\Users\aryan\Documents\GitHub\EthOdyssey_2021\src\logo.png)
-=======
 ![](https://github.com/Aryandotgit/EthOdyssey_2021-PokeMatch/blob/main/src/logo.png)
 
 
