@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ![alt text](:\Users\aryan\Documents\GitHub\EthOdyssey_2021\src\logo.png)
+=======
+![](https://github.com/Aryandotgit/EthOdyssey_2021-PokeMatch/blob/main/src/logo.png)
+>>>>>>> 8abff316bb410f46eb2e0965f8763fcaa01a5aca
 
 ***
 
@@ -23,6 +27,35 @@ Your objective is to match similar tokens to collect them.
 
 This is a demo test for the memory matching game which I have planned to expand to multiple levels filled with unique nfts for kids and people to collect just like you would do with your pokemon trading cards.
 
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+### Use
+
+The solidity script deployment : 
+```
+truffle compile
+truffle migrate --network matic --reset
+```
+Now, we need to deploy the frontend 
+
+```shell
+npm run start
+```
+
+
+### Screenshots
+
+![](https://github.com/Aryandotgit/EthOdyssey_2021-PokeMatch/blob/main/public/screenshot/2.JPG)
+
+***
+
+![](https://github.com/Aryandotgit/EthOdyssey_2021-PokeMatch/blob/main/public/screenshot/4.JPG)
+
 ## Technology used
 * Truffle
 * Metamask
@@ -32,8 +65,6 @@ This is a demo test for the memory matching game which I have planned to expand 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-npm sta
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
