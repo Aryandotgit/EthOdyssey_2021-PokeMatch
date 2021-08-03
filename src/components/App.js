@@ -80,6 +80,7 @@ const CARD_ARRAY = [
   },
 ]
 
+
 class App extends Component {
 
   async componentWillMount() {

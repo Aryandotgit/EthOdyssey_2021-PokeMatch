@@ -1,4 +1,4 @@
-![alt text](C:\Users\aryan\Documents\GitHub\EthOdyssey_2021\src\logo.png)
+![alt text](:\Users\aryan\Documents\GitHub\EthOdyssey_2021\src\logo.png)
 
 ***
 
