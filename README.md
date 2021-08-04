@@ -22,15 +22,8 @@ The tokens inside the game are wide ranging from squirtle to jigglypuff, so be r
 Simply connect your Metamask or any other web-wallet to the application and you are good to go!
 Your objective is to match similar tokens to collect them.
 
-This is a demo test for the memory matching game which I have planned to expand to multiple levels filled with unique nfts for kids and people to collect just like you would do with your pokemon trading cards.
+This is a demo for the memory matching game which I have planned to expand to multiple levels filled with unique nfts for kids and people to collect just like you would do with your pokemon trading cards.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 ### Use
 
 The solidity script deployment : 
